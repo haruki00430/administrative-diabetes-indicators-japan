@@ -169,7 +169,7 @@ The authors declare no conflicts of interest.
 
 ## Data Availability
 
-The NDB Open Data used in this analysis are publicly available from the Ministry of Health, Labour and Welfare of Japan (https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000177182.html). The analysis code is openly available on GitHub (https://github.com/haruki00430/NDB_XXX_triangulation_dm).
+The NDB Open Data used in this analysis are publicly available from the Ministry of Health, Labour and Welfare of Japan (https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000177182.html). The analysis code is openly available on GitHub (https://github.com/haruki00430/NDB_XXX_care_cascade_dm).
 
 ## Funding
 

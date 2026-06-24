@@ -20,8 +20,8 @@ A Care-Cascade Interpretation of Diabetes Indicators Across 335 Secondary Medica
 ## Step 0: Clone and Environment
 
 ```bash
-git clone https://github.com/haruki00430/NDB_XXX_triangulation_dm.git
-cd NDB_XXX_triangulation_dm
+git clone https://github.com/haruki00430/NDB_XXX_care_cascade_dm.git
+cd NDB_XXX_care_cascade_dm
 
 python -m venv .venv
 # Windows
@@ -98,7 +98,7 @@ Intermediate CSV files are excluded from Git and must be regenerated locally.
 
 ## Step 3: Manuscript (optional)
 
-Quarto source: `04_Manuscripts/Manuscript_triangulation_dm.qmd`
+Quarto source: `04_Manuscripts/Manuscript_care_cascade_dm.qmd`
 
 Submission DOCX (as of 2026-06-23):  
 `04_Manuscripts/01What_Do_Administrative_Healthcare_Counts_Really_Measure_manuscript_revised_20260623.docx`

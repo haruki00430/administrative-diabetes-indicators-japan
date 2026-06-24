@@ -43,7 +43,7 @@ This repository contains analysis code for a nationwide ecological study examini
 ## Repository Structure / リポジトリ構造
 
 ```
-NDB_XXX_triangulation_dm/
+NDB_XXX_care_cascade_dm/
 ├── config/
 │   └── config.yaml                 # 指標定義・データパス
 ├── 02_Data/
@@ -61,7 +61,7 @@ NDB_XXX_triangulation_dm/
 │       └── tables/                 # 結果表（CSV; .gitignore）
 ├── 04_Manuscripts/
 │   ├── 01What_Do_..._manuscript_revised_20260623.docx
-│   ├── Manuscript_triangulation_dm.qmd
+│   ├── Manuscript_care_cascade_dm.qmd
 │   ├── references.bib
 │   └── vancouver.csl
 └── 00_Docs/                        # 実施報告書・作業サマリー
@@ -74,8 +74,8 @@ NDB_XXX_triangulation_dm/
 詳細は [REPRODUCE.md](REPRODUCE.md) を参照してください。
 
 ```bash
-git clone https://github.com/haruki00430/NDB_XXX_triangulation_dm.git
-cd NDB_XXX_triangulation_dm
+git clone https://github.com/haruki00430/NDB_XXX_care_cascade_dm.git
+cd NDB_XXX_care_cascade_dm
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 
 **Code repository**:
 
-> https://github.com/haruki00430/NDB_XXX_triangulation_dm
+> https://github.com/haruki00430/NDB_XXX_care_cascade_dm
 
 ---
 
