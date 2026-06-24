@@ -1,0 +1,98 @@
+project:
+  name: NDB_XXX_triangulation_dm
+  title: "What Do Administrative Healthcare Counts Really Measure? Triangulating Diabetes Burden Across Prescription, Laboratory, Claims, and Survey-Based Indicators in Japan"
+  created: "2026-06-22"
+  ndb_round: "No.11"
+  ndb_year: "FY2024 (2024年4月〜2025年3月)"
+
+data:
+  ndb_base: "../../02_Data/raw/NDB_OpenData/No.11"
+  interim_dir: "../../02_Data/interim"
+  processed_dir: "../../02_Data/processed"
+
+# 解析単位
+analysis_units:
+  primary: "二次医療圏"   # ~335圏
+  robustness: "都道府県"   # n=47
+
+# 対象指標（確定版 2026-06-22）
+indicators:
+  # ---- 二次医療圏・都道府県 共通 (主解析5指標) ----
+  ndb_primary:
+    - id: hba1c_checkup_highrate
+      label: "特定健診HbA1c高値率（≥6.5%）"
+      source: "07_特定健診 検査/01_公費レセプトを含まないデータ/HbA1C 二次医療圏別性年齢階級別分布.xlsx"
+      unit: "%"
+      role: "診断・スクリーニング"
+
+    - id: fpg_checkup_highrate
+      label: "特定健診空腹時血糖異常率（≥110 mg/dL）"
+      source: "07_特定健診 検査/01_公費レセプトを含まないデータ/空腹時血糖 二次医療圏別性年齢階級別分布.xlsx"
+      unit: "%"
+      role: "診断・スクリーニング"
+
+    - id: hba1c_test_rate
+      label: "HbA1c検査算定回数/人口"
+      source: "01_医科診療行為（算定回数）/01_公費レセプトを含まないデータ/D_検査/二次医療圏別算定回数.xlsx"
+      ndb_code: "160010010"
+      unit: "回/千人"
+      role: "検査・モニタリング強度"
+
+    - id: dm_complication_mgmt_rate
+      label: "B001-20糖尿病合併症管理料患者数/人口"
+      source: "01_医科診療行為（患者数）/01_公費レセプトを含まないデータ/B_医学管理等/二次医療圏別患者数.xlsx"
+      ndb_code: "B001_20"
+      unit: "人/千人"
+      role: "合併症管理"
+
+    - id: dm_dialysis_prevention_rate
+      label: "B001-27糖尿病透析予防指導患者数/人口"
+      source: "01_医科診療行為（患者数）/01_公費レセプトを含まないデータ/B_医学管理等/二次医療圏別患者数.xlsx"
+      ndb_code: "B001_27"
+      unit: "人/千人"
+      role: "重症化予防"
+
+  # ---- 都道府県のみ（頑健性チェック追加指標） ----
+  ndb_prefecture_only:
+    - id: antidiabetic_drug_qty_rate
+      label: "抗糖尿病薬処方数量/人口（都道府県のみ）"
+      source: "05_処方薬/01_公費レセプトを含まないデータ/01_処方薬（内服／外用／注射）全/【内服】外来（院外）_都道府県別薬効分類別数量.xlsx"
+      drug_class_code: "396"   # 糖尿病剤
+      unit: "単位/千人"
+      role: "治療強度"
+      note: "二次医療圏レベルのデータが存在しないため都道府県のみ使用。理由は実施報告書に明記。"
+
+  # ---- 外的指標（軸の外部命名根拠） ----
+  external:
+    - id: aging_rate
+      label: "高齢化率（65歳以上人口割合）"
+      source: "Statistics_Bureau/pop_2023_age_prefecture.csv"
+      unit: "%"
+
+  # ---- 医療資源指標（交絡検討・軸命名） ----
+  resources:
+    - id: physician_density
+      label: "人口10万対医師数"
+      source: "外部取得要"
+      note: "e-Stat 医師・歯科医師・薬剤師統計 令和4年"
+
+    - id: checkup_rate
+      label: "特定健診受診率"
+      source: "NDB特定健診データから算出"
+
+# 年齢標準化
+standardization:
+  method: "直接法"
+  reference_population: "2020年国勢調査 全国人口（5歳階級）"
+  age_groups: ["40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80-84", "85+"]
+
+# 秘匿処理ルール
+masking:
+  ndb_threshold: 10   # 10未満は「‐」で秘匿
+  handling: "NAとして記録。補完は原則行わない。感度分析で補完あり/なしを比較"
+
+# 解析設定
+analysis:
+  pca_n_components: 3
+  random_seed: 42
+  outlier_exclusion_candidates: ["東京都", "大阪府", "沖縄県"]
