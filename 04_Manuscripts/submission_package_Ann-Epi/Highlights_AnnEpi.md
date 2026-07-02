@@ -1,0 +1,5 @@
+- Five NDB diabetes indicators did not converge on one regional construct.
+- Screening/testing and complication claims loaded on separate PCA components.
+- HbA1c elevation and routine complication claims were uncorrelated (rho=-0.07).
+- Five robustness checks showed this pattern was not a denominator artifact.
+- Indicator choice should match the intended care-cascade stage of interest.

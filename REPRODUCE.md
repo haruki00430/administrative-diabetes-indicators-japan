@@ -98,13 +98,13 @@ Intermediate CSV files are excluded from Git and must be regenerated locally.
 
 ## Step 3: Manuscript (optional)
 
-Quarto source: `04_Manuscripts/Manuscript_care_cascade_dm.qmd`
-
 Submission DOCX (as of 2026-07-02, submitted to Annals of Epidemiology):  
 `04_Manuscripts/11_v11_Administrative_Diabetes_Indicators_Care_Cascade_Annals.docx`  
 `04_Manuscripts/11_v11_Supplement_Administrative_Diabetes_Indicators_Care_Cascade.docx`
 
 Full submission package: `04_Manuscripts/submission_package_Ann-Epi/`
+
+An early Quarto draft (working title, placeholder author fields) is kept for historical record only under `04_Manuscripts/archive/` and does not reflect the submitted version.
 
 ---
 

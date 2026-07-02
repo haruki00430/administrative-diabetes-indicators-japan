@@ -65,3 +65,21 @@ _*.txt
 04_Manuscripts/03What_*
 04_Manuscripts/07What_*
 04_Manuscripts/c260622*
+
+# 出版社の著作物（投稿規定PDF等）はリポジトリに含めない
+04_Manuscripts/submission_package_*/*.pdf
+04_Manuscripts/submission_package_*/Guide for authors*
+04_Manuscripts/submission_package_*/Instructions to Authors*
+04_Manuscripts/submission_package_*/Instruction for authors*
+04_Manuscripts/submission_package_*/Submission Guidelines*
+04_Manuscripts/submission_package_*/Author*checklist*
+04_Manuscripts/submission_package_*/Artificial intelligence policy*
+04_Manuscripts/submission_package_*/Authorship guidelines*
+04_Manuscripts/submission_package_*/Declaration of conflicting interests*
+04_Manuscripts/submission_package_*/Ethics approval and informed consent*
+04_Manuscripts/submission_package_*/Funding statements*
+04_Manuscripts/submission_package_*/Research data sharing policies*
+04_Manuscripts/submission_package_*/Simultaneous submissions policy*
+04_Manuscripts/submission_package_*/Gmail - *
+04_Manuscripts/submission_package_*/*.extracted.txt
+04_Manuscripts/submission_package_*/スクリーンショット*

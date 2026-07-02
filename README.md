@@ -60,10 +60,10 @@ administrative-diabetes-indicators-japan/
 │       ├── figures/                # 論文用図（PNG）
 │       └── tables/                 # 結果表（CSV; .gitignore）
 ├── 04_Manuscripts/
-│   ├── 11_v11_Administrative_Diabetes_Indicators_Care_Cascade_Annals.docx
+│   ├── 11_v11_Administrative_Diabetes_Indicators_Care_Cascade_Annals.docx    # 最終投稿稿
 │   ├── 11_v11_Supplement_Administrative_Diabetes_Indicators_Care_Cascade.docx
 │   ├── submission_package_Ann-Epi/  # Annals of Epidemiology 投稿一式
-│   ├── Manuscript_care_cascade_dm.qmd
+│   ├── archive/                     # 過去稿（投稿版ではない・記録目的）
 │   ├── references.bib
 │   └── vancouver.csl
 └── 00_Docs/                        # 実施報告書・作業サマリー
