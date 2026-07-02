@@ -1,3 +1,7 @@
+> **Repository (GitHub):** https://github.com/haruki00430/administrative-diabetes-indicators-japan  
+> **Zenodo DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21127212.svg)](https://doi.org/10.5281/zenodo.21127212)  
+> **Reproduction:** [`REPRODUCE.md`](REPRODUCE.md) · [`CITATION.cff`](CITATION.cff)
+
 # Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade
 
 **An Ecological Study of 335 Secondary Medical Areas in Japan**
@@ -85,7 +89,7 @@ pip install -r requirements.txt
 
 解析スクリプトは `03_Analysis/scripts/` を 01 → 06 の順に実行します。NDB No.11 生データは `config/config.yaml` のパス（Hub 共通 `02_Data/raw/NDB_OpenData/No.11/`）に配置してください。
 
-> **Note**: この repository は投稿準備に伴い `NDB_XXX_care_cascade_dm` から `administrative-diabetes-indicators-japan` へリネーム予定です（GitHub側のリネーム作業は別途実施。詳細は [`04_Manuscripts/submission_package_Ann-Epi/GitHub_Zenodo_setup_guide.md`](04_Manuscripts/submission_package_Ann-Epi/GitHub_Zenodo_setup_guide.md) を参照）。
+> **Note**: 本リポジトリは NDB Research Hub 内では `NDB_XXX_care_cascade_dm` として管理されていましたが、投稿準備に伴い GitHub 上では `administrative-diabetes-indicators-japan` にリネーム済みです（詳細は [`04_Manuscripts/submission_package_Ann-Epi/GitHub_Zenodo_setup_guide.md`](04_Manuscripts/submission_package_Ann-Epi/GitHub_Zenodo_setup_guide.md) を参照）。
 
 ---
 
