@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+type: software
+authors:
+  - family-names: Saito
+    given-names: Haruki
+    orcid: "https://orcid.org/0009-0009-7890-6068"
+    affiliation: "Fukushima Medical University School of Medicine"
+  - family-names: Ohira
+    given-names: Tetsuya
+    orcid: "https://orcid.org/0000-0003-4532-7165"
+    affiliation: "Fukushima Medical University School of Medicine"
+title: "Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade: An Ecological Study of 335 Secondary Medical Areas in Japan"
+version: 1.0.0
+date-released: "2026-07-02"
+url: "https://github.com/haruki00430/administrative-diabetes-indicators-japan"
+doi: "10.5281/zenodo.XXXXXXX"
+repository-code: "https://github.com/haruki00430/administrative-diabetes-indicators-japan"
+license: MIT
+keywords:
+  - diabetes
+  - care-cascade
+  - administrative-data
+  - ecological-study
+  - ndb
+  - japan
+  - epidemiology
+  - construct-validity

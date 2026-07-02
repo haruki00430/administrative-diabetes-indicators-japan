@@ -1,9 +1,9 @@
-# What Do Administrative Healthcare Counts Really Measure?
+# Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade
 
-**A Care-Cascade Interpretation of Diabetes Indicators Across 335 Secondary Medical Areas in Japan**
+**An Ecological Study of 335 Secondary Medical Areas in Japan**
 
-**行政医療カウントは何を測っているのか？**  
-日本335二次医療圏における糖尿病関連指標のケアカスケード解釈
+**行政医療上の糖尿病関連指標はケアカスケードの異なる段階を捉える**  
+日本335二次医療圏における生態学研究
 
 ---
 
@@ -17,7 +17,7 @@ This repository contains analysis code for a nationwide ecological study examini
 
 **Study design**: Cross-sectional ecological study | N = 335 secondary medical areas (251 complete cases for PCA) | NDB Open Data No.11 (FY2024 claims; FY2023 checkups)
 
-**Manuscript**: Saito H, Ohira T. What Do Administrative Healthcare Counts Really Measure? A Care-Cascade Interpretation of Diabetes Indicators Across 335 Secondary Medical Areas in Japan. *(In preparation, 2026)*
+**Manuscript**: Saito H, Ohira T. Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade: An Ecological Study of 335 Secondary Medical Areas in Japan. *(Submitted to Annals of Epidemiology, 2026)*
 
 ### 日本語
 
@@ -43,7 +43,7 @@ This repository contains analysis code for a nationwide ecological study examini
 ## Repository Structure / リポジトリ構造
 
 ```
-NDB_XXX_care_cascade_dm/
+administrative-diabetes-indicators-japan/
 ├── config/
 │   └── config.yaml                 # 指標定義・データパス
 ├── 02_Data/
@@ -60,7 +60,9 @@ NDB_XXX_care_cascade_dm/
 │       ├── figures/                # 論文用図（PNG）
 │       └── tables/                 # 結果表（CSV; .gitignore）
 ├── 04_Manuscripts/
-│   ├── 01What_Do_..._manuscript_revised_20260623.docx
+│   ├── 11_v11_Administrative_Diabetes_Indicators_Care_Cascade_Annals.docx
+│   ├── 11_v11_Supplement_Administrative_Diabetes_Indicators_Care_Cascade.docx
+│   ├── submission_package_Ann-Epi/  # Annals of Epidemiology 投稿一式
 │   ├── Manuscript_care_cascade_dm.qmd
 │   ├── references.bib
 │   └── vancouver.csl
@@ -74,8 +76,8 @@ NDB_XXX_care_cascade_dm/
 詳細は [REPRODUCE.md](REPRODUCE.md) を参照してください。
 
 ```bash
-git clone https://github.com/haruki00430/NDB_XXX_care_cascade_dm.git
-cd NDB_XXX_care_cascade_dm
+git clone https://github.com/haruki00430/administrative-diabetes-indicators-japan.git
+cd administrative-diabetes-indicators-japan
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
@@ -83,17 +85,20 @@ pip install -r requirements.txt
 
 解析スクリプトは `03_Analysis/scripts/` を 01 → 06 の順に実行します。NDB No.11 生データは `config/config.yaml` のパス（Hub 共通 `02_Data/raw/NDB_OpenData/No.11/`）に配置してください。
 
+> **Note**: この repository は投稿準備に伴い `NDB_XXX_care_cascade_dm` から `administrative-diabetes-indicators-japan` へリネーム予定です（GitHub側のリネーム作業は別途実施。詳細は [`04_Manuscripts/submission_package_Ann-Epi/GitHub_Zenodo_setup_guide.md`](04_Manuscripts/submission_package_Ann-Epi/GitHub_Zenodo_setup_guide.md) を参照）。
+
 ---
 
 ## Citation / 引用
 
-**Manuscript** (in preparation):
+**Manuscript** (submitted):
 
-> Saito H, Ohira T. What Do Administrative Healthcare Counts Really Measure? A Care-Cascade Interpretation of Diabetes Indicators Across 335 Secondary Medical Areas in Japan.
+> Saito H, Ohira T. Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade: An Ecological Study of 335 Secondary Medical Areas in Japan. Submitted to Annals of Epidemiology, 2026.
 
 **Code repository**:
 
-> https://github.com/haruki00430/NDB_XXX_care_cascade_dm
+> https://github.com/haruki00430/administrative-diabetes-indicators-japan
+> DOI: 10.5281/zenodo.XXXXXXX (Zenodo 取得後に更新)
 
 ---
 

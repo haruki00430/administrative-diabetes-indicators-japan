@@ -2,8 +2,8 @@
 
 Step-by-step instructions to reproduce analysis outputs for:
 
-**What Do Administrative Healthcare Counts Really Measure?**  
-A Care-Cascade Interpretation of Diabetes Indicators Across 335 Secondary Medical Areas in Japan
+**Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade**  
+An Ecological Study of 335 Secondary Medical Areas in Japan
 
 ---
 
@@ -20,8 +20,8 @@ A Care-Cascade Interpretation of Diabetes Indicators Across 335 Secondary Medica
 ## Step 0: Clone and Environment
 
 ```bash
-git clone https://github.com/haruki00430/NDB_XXX_care_cascade_dm.git
-cd NDB_XXX_care_cascade_dm
+git clone https://github.com/haruki00430/administrative-diabetes-indicators-japan.git
+cd administrative-diabetes-indicators-japan
 
 python -m venv .venv
 # Windows
@@ -46,7 +46,7 @@ Place downloaded Excel files under the path in `config/config.yaml`:
 
 When running from this repository alone, either:
 
-- clone inside [NDB_Research_Hub](https://github.com/haruki00430/NDB_Research_Hub) and use the shared `02_Data/raw/` tree, or
+- clone inside [NDB_Research_Hub](https://github.com/haruki00430/NDB_Research_Hub) and use the shared `02_Data/raw/` tree (this repository was formerly named `NDB_XXX_care_cascade_dm` within the Hub), or
 - create `02_Data/raw/NDB_OpenData/No.11/` locally and update `config/config.yaml` paths.
 
 Required tables (see `config/config.yaml` for filenames):
@@ -100,8 +100,11 @@ Intermediate CSV files are excluded from Git and must be regenerated locally.
 
 Quarto source: `04_Manuscripts/Manuscript_care_cascade_dm.qmd`
 
-Submission DOCX (as of 2026-06-23):  
-`04_Manuscripts/01What_Do_Administrative_Healthcare_Counts_Really_Measure_manuscript_revised_20260623.docx`
+Submission DOCX (as of 2026-07-02, submitted to Annals of Epidemiology):  
+`04_Manuscripts/11_v11_Administrative_Diabetes_Indicators_Care_Cascade_Annals.docx`  
+`04_Manuscripts/11_v11_Supplement_Administrative_Diabetes_Indicators_Care_Cascade.docx`
+
+Full submission package: `04_Manuscripts/submission_package_Ann-Epi/`
 
 ---
 
