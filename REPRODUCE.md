@@ -38,13 +38,13 @@ pip install -r requirements.txt
 
 ### 1-a. NDB Open Data No.11 (MHLW)
 
-Place downloaded Excel files under the path in `config/config.yaml`:
+Create the following folder under this repository's root and place the downloaded files there:
 
 ```
-../../02_Data/raw/NDB_OpenData/No.11/
+02_Data/raw/NDB_OpenData/No.11/
 ```
 
-Create `02_Data/raw/NDB_OpenData/No.11/` under this repository's root and place the downloaded files there (adjust the path in `config/config.yaml` if you use a different location).
+(`config/config.yaml` resolves this path relative to the script location; adjust `data.ndb_base` there if you use a different location.)
 
 Required tables (see `config/config.yaml` for filenames):
 
