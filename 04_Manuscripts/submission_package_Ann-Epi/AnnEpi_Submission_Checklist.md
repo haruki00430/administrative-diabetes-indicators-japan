@@ -93,8 +93,8 @@
 - [ ] 本文で引用した全参考文献が参考文献リストに含まれるか、その逆も含めて確認したか
 - [ ] 第三者著作物の転載許可（該当する場合）
 - [ ] Figure 3・SuppFig S1・S3 の解像度再検討（上記4章）
-- [ ] GitHub 公開設定・Zenodo DOI 取得（`GitHub_Zenodo_setup_guide.md` 参照）
-- [ ] Data availability文中のZenodo DOIを確定後の値に更新
+- [x] GitHub 公開設定・Zenodo DOI 取得（`GitHub_Zenodo_setup_guide.md` 参照）→ DOI: 10.5281/zenodo.21127212（2026-07-02）
+- [x] Data availability文中のZenodo DOIを確定後の値に更新（本文・submission_package双方に反映済み）
 
 ---
 

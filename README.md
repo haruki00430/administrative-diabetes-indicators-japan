@@ -98,7 +98,7 @@ pip install -r requirements.txt
 **Code repository**:
 
 > https://github.com/haruki00430/administrative-diabetes-indicators-japan
-> DOI: 10.5281/zenodo.XXXXXXX (Zenodo 取得後に更新)
+> DOI: [10.5281/zenodo.21127212](https://doi.org/10.5281/zenodo.21127212)
 
 ---
 

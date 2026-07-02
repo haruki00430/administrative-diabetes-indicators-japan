@@ -10,18 +10,18 @@
 
 ---
 
-## 現在のステータス / Current status
+## 現在のステータス / Current status（2026-07-02 完了）
 
 | 作業 / Task | 状態 / Status |
 |------|------|
-| GitHub リポジトリ名（現在: `NDB_XXX_care_cascade_dm`） | ⚠ **リネーム推奨** → `administrative-diabetes-indicators-japan` |
-| GitHub 公開設定（現在: Private） | ⚠ **Public化を検討**（Accept後、または投稿時点でも可） |
-| README.md（研究内容） | ⚠ **更新推奨**（旧タイトル "What Do Administrative Healthcare Counts Really Measure?" のまま） |
-| CITATION.cff | ⚠ **新規作成推奨**（現状リポジトリに存在しない） |
-| REPRODUCE.md | ⚠ **更新推奨**（旧原稿ファイル名を参照している） |
-| LICENSE | ✅ 存在（MIT、内容確認のみ） |
-| Zenodo DOI | ⚠ **新規登録推奨**（未取得） |
-| Data availability 文中のURL | ⚠ **リネーム後のURLに統一** |
+| GitHub リポジトリ名 | ✅ `administrative-diabetes-indicators-japan` にリネーム済み |
+| GitHub 公開設定 | ✅ Public化済み |
+| README.md（研究内容） | ✅ 更新済み |
+| CITATION.cff | ✅ 作成済み（DOI反映済み） |
+| REPRODUCE.md | ✅ 更新済み |
+| LICENSE | ✅ 存在（MIT） |
+| Zenodo DOI | ✅ **取得済み: 10.5281/zenodo.21127212**（GitHub Release v1.0.0連携） |
+| Data availability 文中のURL・DOI | ✅ GitHub URL・Zenodo DOI とも反映済み |
 
 ---
 
@@ -83,7 +83,7 @@ title: "Administrative Diabetes Indicators Capture Distinct Stages of the Care C
 version: 1.0.0
 date-released: "2026-07-02"
 url: "https://github.com/haruki00430/administrative-diabetes-indicators-japan"
-doi: "10.5281/zenodo.XXXXXXX"  # Zenodo 取得後に更新 / update after Zenodo DOI is issued
+doi: "10.5281/zenodo.21127212"
 repository-code: "https://github.com/haruki00430/administrative-diabetes-indicators-japan"
 license: MIT
 keywords:
