@@ -44,10 +44,7 @@ Place downloaded Excel files under the path in `config/config.yaml`:
 ../../02_Data/raw/NDB_OpenData/No.11/
 ```
 
-When running from this repository alone, either:
-
-- clone inside [NDB_Research_Hub](https://github.com/haruki00430/NDB_Research_Hub) and use the shared `02_Data/raw/` tree (this repository was formerly named `NDB_XXX_care_cascade_dm` within the Hub), or
-- create `02_Data/raw/NDB_OpenData/No.11/` locally and update `config/config.yaml` paths.
+Create `02_Data/raw/NDB_OpenData/No.11/` under this repository's root and place the downloaded files there (adjust the path in `config/config.yaml` if you use a different location).
 
 Required tables (see `config/config.yaml` for filenames):
 
@@ -59,13 +56,13 @@ Download: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000177182.html
 
 ### 1-b. Population master (S5 sensitivity analysis)
 
-For script `06_task_E_denominator_sensitivity.py`, place:
+For script `06_task_E_denominator_sensitivity.py`, place a prefecture x age-group population table (2023 estimates) at:
 
 ```
-../../02_Data/raw/Statistics_Bureau/pop_2023_age_prefecture.csv
+02_Data/raw/Statistics_Bureau/pop_2023_age_prefecture.csv
 ```
 
-(or adjust `POP_DIR` in the script if using a local copy).
+(or adjust `POP_DIR` in the script if using a different location). This table can be reconstructed from the Statistics Bureau of Japan's official population estimates (e-Stat, "人口推計"), filtered to prefecture x 5-year age group.
 
 ---
 

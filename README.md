@@ -40,7 +40,7 @@ This repository contains analysis code for a nationwide ecological study examini
 | Population estimates 2023 (Statistics Bureau) | Prefecture population by age | S5感度分析の代替分母 |
 
 > **Note**: NDB raw Excel files are not included in this repository. Download from: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000177182.html  
-> Population master CSV used by S5 is shared via the parent NDB Research Hub (`02_Data/raw/Statistics_Bureau/`) or official Statistics Bureau releases.
+> The population master CSV used by S5 is not included either; it can be reconstructed from the Statistics Bureau of Japan's official population estimates (e-Stat, "人口推計"), filtered to prefecture x 5-year age group. See [REPRODUCE.md](REPRODUCE.md) for the expected file path.
 
 ---
 
@@ -87,9 +87,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-解析スクリプトは `03_Analysis/scripts/` を 01 → 06 の順に実行します。NDB No.11 生データは `config/config.yaml` のパス（Hub 共通 `02_Data/raw/NDB_OpenData/No.11/`）に配置してください。
-
-> **Note**: 本リポジトリは NDB Research Hub 内では `NDB_XXX_care_cascade_dm` として管理されていましたが、投稿準備に伴い GitHub 上では `administrative-diabetes-indicators-japan` にリネーム済みです（詳細は [`04_Manuscripts/submission_package_Ann-Epi/GitHub_Zenodo_setup_guide.md`](04_Manuscripts/submission_package_Ann-Epi/GitHub_Zenodo_setup_guide.md) を参照）。
+解析スクリプトは `03_Analysis/scripts/` を 01 → 06 の順に実行します。NDB No.11 生データは、このリポジトリ直下の `02_Data/raw/NDB_OpenData/No.11/`（`config/config.yaml` で変更可）に配置してください。
 
 ---
 
