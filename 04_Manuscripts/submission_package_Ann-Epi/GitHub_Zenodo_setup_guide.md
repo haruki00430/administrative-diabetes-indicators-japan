@@ -21,7 +21,8 @@
 | REPRODUCE.md | ✅ 更新済み |
 | LICENSE | ✅ 存在（MIT） |
 | Zenodo DOI | ✅ **取得済み: 10.5281/zenodo.21127212**（GitHub Release v1.0.0連携） |
-| Data availability 文中のURL・DOI | ✅ GitHub URL・Zenodo DOI とも反映済み |
+| Data availability 文中のURL・DOI | ✅ GitHub URL・Zenodo DOI とも反映済み（DRCP投稿稿 `Manuscript_DRCP.docx` でも同一） |
+| README / CITATION.cff / REPRODUCE.md | ✅ DRCP投稿（DIAB-D-26-02763, 2026-07-03）に合わせて更新済み |
 
 ---
 

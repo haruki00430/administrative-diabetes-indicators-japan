@@ -17,6 +17,19 @@ url: "https://github.com/haruki00430/administrative-diabetes-indicators-japan"
 doi: "10.5281/zenodo.21127212"
 repository-code: "https://github.com/haruki00430/administrative-diabetes-indicators-japan"
 license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Saito
+      given-names: Haruki
+      orcid: "https://orcid.org/0009-0009-7890-6068"
+    - family-names: Ohira
+      given-names: Tetsuya
+      orcid: "https://orcid.org/0000-0003-4532-7165"
+  title: "Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade: An Ecological Study of 335 Secondary Medical Areas in Japan"
+  journal: "Diabetes Research and Clinical Practice"
+  year: 2026
+  notes: "Manuscript DIAB-D-26-02763; submitted 2026-07-03. Previously submitted to Annals of Epidemiology (AEP-D-26-01104, desk rejected 2026-07-03)."
 keywords:
   - diabetes
   - care-cascade

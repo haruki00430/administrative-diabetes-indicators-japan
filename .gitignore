@@ -66,6 +66,9 @@ _*.txt
 04_Manuscripts/07What_*
 04_Manuscripts/c260622*
 
+# Word / Office lock files
+~$*
+
 # 出版社の著作物（投稿規定PDF等）はリポジトリに含めない
 04_Manuscripts/submission_package_*/*.pdf
 04_Manuscripts/submission_package_*/Guide for authors*

@@ -21,7 +21,7 @@ This repository contains analysis code for a nationwide ecological study examini
 
 **Study design**: Cross-sectional ecological study | N = 335 secondary medical areas (251 complete cases for PCA) | NDB Open Data No.11 (FY2024 claims; FY2023 checkups)
 
-**Manuscript**: Saito H, Ohira T. Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade: An Ecological Study of 335 Secondary Medical Areas in Japan. *(Submitted to Annals of Epidemiology, 2026)*
+**Manuscript**: Saito H, Ohira T. Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade: An Ecological Study of 335 Secondary Medical Areas in Japan. *(Submitted to Diabetes Research and Clinical Practice, manuscript DIAB-D-26-02763, 2026-07-03.)*
 
 ### 日本語
 
@@ -66,7 +66,8 @@ administrative-diabetes-indicators-japan/
 ├── 04_Manuscripts/
 │   ├── 11_v11_Administrative_Diabetes_Indicators_Care_Cascade_Annals.docx    # 最終投稿稿
 │   ├── 11_v11_Supplement_Administrative_Diabetes_Indicators_Care_Cascade.docx
-│   ├── submission_package_Ann-Epi/  # Annals of Epidemiology 投稿一式
+│   ├── submission_package_Ann-Epi/  # Annals of Epidemiology 投稿一式（desk rejected 2026-07-03）
+│   ├── submission_package_DRCP/     # Diabetes Research and Clinical Practice 投稿一式（DIAB-D-26-02763）
 │   ├── archive/                     # 過去稿（投稿版ではない・記録目的）
 │   ├── references.bib
 │   └── vancouver.csl
@@ -95,7 +96,7 @@ pip install -r requirements.txt
 
 **Manuscript** (submitted):
 
-> Saito H, Ohira T. Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade: An Ecological Study of 335 Secondary Medical Areas in Japan. Submitted to Annals of Epidemiology, 2026.
+> Saito H, Ohira T. Administrative Diabetes Indicators Capture Distinct Stages of the Care Cascade: An Ecological Study of 335 Secondary Medical Areas in Japan. Submitted to *Diabetes Research and Clinical Practice*, manuscript DIAB-D-26-02763 (2026-07-03).
 
 **Code repository**:
 

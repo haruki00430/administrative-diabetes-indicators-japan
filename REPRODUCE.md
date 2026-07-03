@@ -95,11 +95,15 @@ Intermediate CSV files are excluded from Git and must be regenerated locally.
 
 ## Step 3: Manuscript (optional)
 
-Submission DOCX (as of 2026-07-02, submitted to Annals of Epidemiology):  
-`04_Manuscripts/11_v11_Administrative_Diabetes_Indicators_Care_Cascade_Annals.docx`  
-`04_Manuscripts/11_v11_Supplement_Administrative_Diabetes_Indicators_Care_Cascade.docx`
+Current submission package (Diabetes Research and Clinical Practice, DIAB-D-26-02763, submitted 2026-07-03):
 
-Full submission package: `04_Manuscripts/submission_package_Ann-Epi/`
+- `04_Manuscripts/submission_package_DRCP/Manuscript_DRCP.docx`
+- `04_Manuscripts/submission_package_DRCP/Supplement_DRCP.docx`
+
+Previous submission (Annals of Epidemiology, AEP-D-26-01104, desk rejected 2026-07-03):
+
+- `04_Manuscripts/submission_package_Ann-Epi/`
+- `04_Manuscripts/11_v11_Administrative_Diabetes_Indicators_Care_Cascade_Annals.docx`
 
 An early Quarto draft (working title, placeholder author fields) is kept for historical record only under `04_Manuscripts/archive/` and does not reflect the submitted version.
 
